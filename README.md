@@ -9,21 +9,20 @@ As version 0.1.0 we decode:
 ## Usage
 1. Fork the project
 ```
-git clone git@github.com:gnosis/gnosis-abi-decoder.git
+git clone https://github.com/gnosis/gnosis-abi-decoder.git
+
 ```
 2. Install dependencies
 ```
 cd gnosis-abi-decoder
 npm install
+npm install --save babel-core
+npm install --save babel-preset-env
+npm install babel-cli -g
+
 ````
 3. Start using it
 ```
 npm start
+
 ```
-
-## New features
-If you miss a feature just open an issue
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
